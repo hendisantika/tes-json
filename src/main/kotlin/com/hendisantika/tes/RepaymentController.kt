@@ -37,8 +37,8 @@ class RepaymentController {
         val inst1 = listOf<Instrument>(instrument1, instrument2, instrument3, instrument7, instrument8)
         val inst2 = listOf<Instrument>(instrument4, instrument5, instrument6, instrument9, instrument10)
 
-        val funder1 = Funder(100, "Budi Anduk", inst1, "Budi Anduk", "BCA", "1234567891", 2450L)
-        val funder2 = Funder(101, "Toni Sucipto", inst2, "Toni Sucipto", "BRI", "1234567891", 2500L)
+        val funder1 = Funder(100, "Budi Anduk", inst1, "Budi Anduk", "BCA", "1234567891", 26500000L)
+        val funder2 = Funder(101, "Toni Sucipto", inst2, "Toni Sucipto", "BRI", "1234567891", 25000000L)
 
         val fund = listOf<Funder>(funder1, funder2)
 
